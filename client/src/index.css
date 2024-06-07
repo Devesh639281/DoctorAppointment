@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spinner{
+  height: 100vh;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 9999;
+  background-color: black;
+}
+
+.form-btn{
+  width: 250px !important;
+margin-top: 30px !important;
+right: 10px;
+}
+
+.form-input-padding{
+  padding: 10px !important;
+}
