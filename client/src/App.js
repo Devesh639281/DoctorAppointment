@@ -21,7 +21,7 @@ import UserProfile from "../src/pages/UserProfile";
 
 function App() {
   const { loading } = useSelector((state) => state.alerts);
-  const { user } = useSelector((state) => state.user);
+  // const { user } = useSelector((state) => state.user);
 
   return (
     <>
