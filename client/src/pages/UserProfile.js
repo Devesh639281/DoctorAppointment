@@ -27,7 +27,7 @@ const UserProfile = () => {
 
   useEffect(() => {
     getUserInfo();
-    // Include getUser Info in the dependency array
+     //eslint-disable-next-line
   }, [user._id]); // Use user._id to ensure it runs when user changes
 
   const onFinishHandler = async (values) => {
