@@ -28,6 +28,7 @@ const UserProfile = () => {
 
   useEffect(() => {
     getUserInfo();
+    // eslint-disable-next-line
   }, [params._id]);
 
   const onFinishHandler = async (values) => {
