@@ -10,7 +10,7 @@ const UserProfile = () => {
   const params = useParams();
   const navigate = useNavigate();
 
-  const getUser Info = async () => {
+  const getUserInfo = async () => {
     try {
       const res = await axios.get(`/api/v1/user/getUser Info/${user._id}`, {
         headers: {
@@ -26,7 +26,7 @@ const UserProfile = () => {
   };
 
   useEffect(() => {
-    getUser Info();
+    getUserInfo();
     // Include getUser Info in the dependency array
   }, [user._id]); // Use user._id to ensure it runs when user changes
 
