@@ -7,6 +7,7 @@ import axios from "axios";
 
 const UserProfile = () => {
   const { user } = useSelector((state) => state.user);
+     // eslint-disable-next-line
   const [users, setUsers] = useState();
   const params = useParams();
   const navigate = useNavigate();
